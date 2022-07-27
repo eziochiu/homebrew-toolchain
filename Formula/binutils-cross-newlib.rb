@@ -1,4 +1,4 @@
-class BinutilsCrossNewLib < Formula
+class BinutilsCrossNewlib < Formula
   desc "GNU Binutils for m68k cross-compiling"
   homepage "https://www.gnu.org/software/binutils/"
   url "http://gsdview.appspot.com/nativeclient-mirror/toolchain/newlib/newlib-2.0.0.tar.gz"
