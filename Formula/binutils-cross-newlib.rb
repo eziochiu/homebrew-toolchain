@@ -5,7 +5,7 @@ class BinutilsCrossNewlib < Formula
   sha256 "49c29e9129325e7c3b221aa829743ddcd796d024440e47c80fc0d6769af72d8a"
 
   def install
-    system "./newlib/configure", "--disable-debug",
+    system "./configure", "--disable-debug",
                           "--enable-lite-exit",
                           "--enable-newlib-nano-malloc",
                           "--enable-multilib",
