@@ -5,7 +5,7 @@ class GccCrossM68kAT4 < Formula
   sha256 "6c5c7dcafbe74362c84fbcf13029d717e5719a1e9067257e3d1dffc9bee91482"
 
   depends_on "binutils-cross-m68k"
-  depends_on "buildNewLib"
+  depends_on "binutils-cross-newlib"
   
   # All of these are probably not needed but #3 was a case where it wouldn't
   # build without them (maybe no previous install of platform GCC)
