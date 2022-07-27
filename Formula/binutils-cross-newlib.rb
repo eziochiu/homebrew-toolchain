@@ -2,7 +2,7 @@ class BinutilsCrossNewlib < Formula
   desc "GNU Binutils for m68k cross-compiling"
   homepage "https://www.gnu.org/software/binutils/"
   url "http://gsdview.appspot.com/nativeclient-mirror/toolchain/newlib/newlib-2.0.0.tar.gz"
-  sha256 "2ab2e5b03e086d12c6295f831adad46b3e1410a3a234933a2e8fac66cb2e7a19"
+  sha256 "49c29e9129325e7c3b221aa829743ddcd796d024440e47c80fc0d6769af72d8a"
 
   def install
     system "./newlib/configure", "--disable-debug",
