@@ -1,4 +1,4 @@
-class GccCrossM68kAT11 < Formula
+class GccCrossM68kAT4 < Formula
   desc "GNU Compiler Collection 4.8.0 (Cross-compiler/m68k)"
   homepage "https://gcc.gnu.org"
   url "http://www.mirrorservice.org/sites/ftp.gnu.org/gnu/gcc/gcc-4.8.0/gcc-4.8.0.tar.gz"
