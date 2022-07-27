@@ -39,8 +39,6 @@ class GccCrossM68kAT4 < Formula
       system "make", "all-gcc", "all-target-libgcc"
       system "make", "install-gcc", "install-target-libgcc"
     end
-
-    depends_on "binutils-cross-newlib"
   end
 
   test do
